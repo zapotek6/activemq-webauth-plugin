@@ -28,7 +28,6 @@ WEBAUTH_SERVER_URL="https://server:port/path"
     ```
     activemq-webauth-plugin/lib# copy-dependencies.sh
     ```
-  
 - configure the plugin in the activemq.xml. Add the bean element in the plugins section inside the broker section.
 
     ```$xslt
@@ -71,4 +70,8 @@ CA_CERTS_STORE_PATH=/etc/ssl/certs/java/cacerts
 
 [ActiveMQ Interceptors](http://activemq.apache.org/interceptors.html)
 
+<<<<<<< HEAD
 [Apache ActiveMQ source examples](http://svn.apache.org/repos/asf/activemq/trunk/activemq-broker/src/main/java/org/apache/activemq/)
+=======
+[Apache ActiveMQ source examples](http://svn.apache.org/repos/asf/activemq/trunk/activemq-broker/src/main/java/org/apache/activemq/)
+>>>>>>> a22952dbc52238e14d27a82b1bac2adc16b78da7
