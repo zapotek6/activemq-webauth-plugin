@@ -28,7 +28,6 @@ WEBAUTH_SERVER_URL="https://server:port/path"
     ```
     activemq-webauth-plugin/lib# copy-dependencies.sh
     ```
-  
 - configure the plugin in the activemq.xml. Add the bean element in the plugins section inside the broker section.
 
     ```$xslt
