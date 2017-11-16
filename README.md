@@ -4,7 +4,7 @@
 
 This plugin was inspired to the **rabbitmq_auth_backend_http plugin**.
 
-That plugin take the credentials provided by the client and verify the validity against a web application.
+That plugin takes the credentials provided by the client and verify the validity against a web application.
 This implementation 
 
 ```$xslt
@@ -26,7 +26,7 @@ WEBAUTH_SERVER_URL="https://server:port/path"
   In order to get all the depencencies run the copy-dependencies.sh script from the lib folder
 
     ```
-    activemq-webauth-plugin/lib# copy-dependencies.sh
+    activemq-webauth-plugin/lib# ./copy-dependencies.sh
     ```
 - configure the plugin in the activemq.xml. Add the bean element in the plugins section inside the broker section.
 
@@ -60,7 +60,7 @@ sudo update-ca-certificates -f
 
 If that command does not exists try to install the package **ca-certificates-java**.
 
-If even with this actions you still get error try to setup the **CA_CERTS_STORE_PATH** environment variable
+If even with this actions you still get an error try to setup the **CA_CERTS_STORE_PATH** environment variable
 
 ```$xslt
 CA_CERTS_STORE_PATH=/etc/ssl/certs/java/cacerts
